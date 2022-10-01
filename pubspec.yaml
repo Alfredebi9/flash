@@ -72,33 +72,32 @@ flutter:
   # "family" key with the font family name, and a "fonts" key with a
   # list giving the asset and other descriptors for the font. For
   # example:
-  fonts:
-    - family: Poppins
-      fonts:
-        - asset: fonts/Poppins-Black.ttf
-        - asset: fonts/Poppins-Bold.ttf
-          weight: 700
-        - asset: fonts/Poppins-BoldItalic.ttf
-        - asset: fonts/Poppins-ExtraBold.ttf
-          weight: 900
-        - asset: fonts/Poppins-ExtraBoldItalic.ttf
-        - asset: fonts/Poppins-ExtraLight.ttf
-          weight: 100
-        - asset: fonts/Poppins-ExtraLightItalic.ttf
-        - asset: fonts/Poppins-Italic.ttf
-          style: italic
-        - asset: fonts/Poppins-Light.ttf
-          weight: 300
-        - asset: fonts/Poppins-LightItalic.ttf
-        - asset: fonts/Poppins-Medium.ttf
-          weight: 500
-        - asset: fonts/Poppins-MediumItalic.ttf
-        - asset: fonts/Poppins-Regular.ttf
-        - asset: fonts/Poppins-SemiBold.ttf
-        - asset: fonts/Poppins-SemiBoldItalic.ttf
-        - asset: fonts/Poppins-Thin.ttf
-        - asset: fonts/Poppins-ThinItalic.ttf
-  
+  # fonts:
+  #   - family: Poppins
+  #     fonts:
+  #       - asset: fonts/Poppins-Black.ttf
+  #       - asset: fonts/Poppins-Bold.ttf
+  #         weight: 700
+  #       - asset: fonts/Poppins-BoldItalic.ttf
+  #       - asset: fonts/Poppins-ExtraBold.ttf
+  #         weight: 900
+  #       - asset: fonts/Poppins-ExtraBoldItalic.ttf
+  #       - asset: fonts/Poppins-ExtraLight.ttf
+  #         weight: 100
+  #       - asset: fonts/Poppins-ExtraLightItalic.ttf
+  #       - asset: fonts/Poppins-Italic.ttf
+  #         style: italic
+  #       - asset: fonts/Poppins-Light.ttf
+  #         weight: 300
+  #       - asset: fonts/Poppins-LightItalic.ttf
+  #       - asset: fonts/Poppins-Medium.ttf
+  #         weight: 500
+  #       - asset: fonts/Poppins-MediumItalic.ttf
+  #       - asset: fonts/Poppins-Regular.ttf
+  #       - asset: fonts/Poppins-SemiBold.ttf
+  #       - asset: fonts/Poppins-SemiBoldItalic.ttf
+  #       - asset: fonts/Poppins-Thin.ttf
+  #       - asset: fonts/Poppins-ThinItalic.ttf
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages

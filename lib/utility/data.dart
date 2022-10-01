@@ -1,41 +1,49 @@
+import 'package:flutter/cupertino.dart';
+
 List<Map> homedata = [
   {
     'title': 'Tech',
-    'photo': 'assets/images/tech.jpg',
+    'photo': 'asset/images/tech.jpg',
+    'page': () {},
   },
   {
     'title': 'Economy',
-    'photo': 'assets/images/economy.jpg',
+    'photo': 'asset/images/Economy2.jpg',
     'page': () {},
   },
   {
     'title': 'Sports',
-    'photo': 'assets/images/sport.jpg',
+    'photo': 'asset/images/sport.jpg',
     'page': () {},
   },
   {
     'title': 'Health',
-    'photo': 'assets/images/health.jpg',
+    'photo': 'asset/images/health.jpg',
     'page': () {},
   },
   {
     'title': 'Fun',
-    'photo': 'assets/images/art2.jpg',
+    'photo': 'asset/images/general2.jpg',
     'page': () {},
   },
   {
     'title': 'Science',
-    'photo': 'assets/images/science.jpg',
+    'photo': 'asset/images/science.jpg',
+    'page': () {},
+  },
+  {
+    'title': 'General',
+    'photo': 'asset/images/general.jpg',
     'page': () {},
   },
   {
     'title': 'Music',
-    'photo': 'assets/images/music.jpg',
+    'photo': 'asset/images/music.jpg',
     'page': () {},
   },
   {
     'title': 'Art',
-    'photo': 'assets/images/art.jpg',
+    'photo': 'asset/images/art.jpg',
     'page': () {},
   },
 ];
