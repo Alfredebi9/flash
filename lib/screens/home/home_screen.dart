@@ -22,13 +22,13 @@ class Homescreen extends StatelessWidget {
           ),
         ),
         elevation: h * 0.001,
-        backgroundColor: MyAppColors.appWhite,
+        backgroundColor: Color.fromARGB(255, 11, 76, 80),
         actions: [
           IconButton(
             onPressed: () {},
             icon: Icon(
               Icons.search,
-              color: MyAppColors.mainGreyColor,
+              color: MyAppColors.appWhite,
               // size: h * 1,
             ),
           ),

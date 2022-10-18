@@ -8,7 +8,7 @@ List<Map> homedata = [
   },
   {
     'title': 'Economy',
-    'photo': 'asset/images/Economy2.jpg',
+    'photo': 'asset/images/economy.jpg',
     'page': () {},
   },
   {
@@ -23,7 +23,7 @@ List<Map> homedata = [
   },
   {
     'title': 'Fun',
-    'photo': 'asset/images/general2.jpg',
+    'photo': 'asset/images/fun.jpg',
     'page': () {},
   },
   {

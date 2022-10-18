@@ -35,7 +35,7 @@ class SigninScreen extends StatelessWidget {
               ),
               child: Image.asset(
                 'asset/images/flash.png',
-                height: h * 0.15,
+                height: h * 0.14,
                 // color: MyAppColors.mainColor,
               ),
             ),
@@ -63,13 +63,13 @@ class SigninScreen extends StatelessWidget {
                           ),
                           hintText: 'Email',
                           border: InputBorder.none,
-                          contentPadding: EdgeInsets.all(10),
+                          contentPadding: EdgeInsets.all(h * 0.025),
                         ),
                       ),
                     ),
                   ),
                   SizedBox(
-                    height: h * 0.04,
+                    height: h * 0.02,
                   ),
                   // Password
                   Padding(
@@ -90,17 +90,37 @@ class SigninScreen extends StatelessWidget {
                           ),
                           hintText: 'Password',
                           border: InputBorder.none,
-                          contentPadding: EdgeInsets.all(h * 0.009),
+                          contentPadding: EdgeInsets.all(h * 0.025),
                         ),
                       ),
                     ),
                   ),
                   SizedBox(
-                    height: h * 0.05,
+                    height: h * 0.01,
+                  ),
+                  // Forgot Password Button
+                  Container(
+                    width: w * 1,
+                    alignment: Alignment.centerRight,
+                    child: TextButton(
+                      style: TextButton.styleFrom(),
+                      onPressed: () {},
+                      child: Text(
+                        'Forgot Password',
+                        style: TextStyle(
+                          fontSize: w * 0.04,
+                          fontWeight: FontWeight.bold,
+                          color: MyAppColors.mainColor,
+                        ),
+                      ),
+                    ),
+                  ),
+                  SizedBox(
+                    height: h * 0.07,
                   ),
                   // Login Button
                   Container(
-                    height: h * 0.08,
+                    height: h * 0.06,
                     width: w - 100,
                     alignment: Alignment.center,
                     decoration: BoxDecoration(
@@ -122,6 +142,30 @@ class SigninScreen extends StatelessWidget {
                       ),
                     ),
                   ),
+                  SizedBox(
+                    height: h * 0.001,
+                  ),
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      Text(
+                        'Don`t have an Account?',
+                      ),
+                      TextButton(
+                        style: TextButton.styleFrom(),
+                        onPressed: () {},
+                        child: Text(
+                          'Register',
+                          style: TextStyle(
+                            // fontSize: w * 0.04,
+                            fontWeight: FontWeight.bold,
+                            decoration: TextDecoration.underline,
+                            color: MyAppColors.mainColor,
+                          ),
+                        ),
+                      )
+                    ],
+                  )
                 ],
               ),
             ),
